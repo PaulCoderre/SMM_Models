@@ -1,0 +1,11 @@
+	low_bound	upper_bound
+adjmix_rain	0.6	1.4
+cecn_coef	4.0	6.0
+jh_coef	0	0.2
+radmax	0.5	0.9
+rain_cbh_adj	0.5	3.0
+snow_cbh_adj	0.5	3.0
+tmax_allrain_offset	0.1	9.5
+tmax_allsnow	29.0	40.0
+tmax_cbh_adj	-3.0	3.0
+tmin_cbh_adj	-3.0	3.0

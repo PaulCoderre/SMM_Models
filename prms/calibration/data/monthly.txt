@@ -1,0 +1,9 @@
+ adjmix_rain cecn_coef jh_coef radmax rain_cbh_adj snow_cbh_adj tmax_allrain_offset tmax_allsnow tmax_cbh_adj tmin_cbh_adj
+5 1 1 1 1 1 1 1 1 1 1
+6 1 1 1 1 1 1 1 1 1 1
+3 1 1 1 1 1 1 1 1 1 1
+4 1 1 1 1 1 1 1 1 1 1
+9 1 1 1 1 1 1 1 1 1 1
+20 1 1 1 1 1 1 1 1 1 1
+7 1 1 1 1 1 1 1 1 1 1
+15 1 1 1 1 1 1 1 1 1 1

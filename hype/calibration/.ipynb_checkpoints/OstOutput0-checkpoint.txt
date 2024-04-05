@@ -1,0 +1,41 @@
+--------------------------------------------------------------------------
+ OSTRICH version 23.12.01 (Built Dec  1 2023 @ 13:16:03)
+
+ A computer program for model-independent calibration and optimization.
+
+ Author             L. Shawn Matott
+ Copyright (C) 2007 L. Shawn Matott
+
+ This program is free software; you can redistribute 
+ it and/or modify it under the terms of the GNU  
+ General Public License as published by the Free 
+ Software Foundation; either version 2 of the 
+ License, or(at your option) any later version. 
+
+ This program is distributed in the hope that it will 
+ be useful, but WITHOUT ANY WARRANTY; without even 
+ the implied warranty of MERCHANTABILITY or FITNESS 
+ FOR A PARTICULAR PURPOSE. See the GNU General Public 
+ License for more details. 
+
+ You should have received a copy of the GNU General 
+ Public License along with this program; if not, 
+ write to the Free Software Foundation, Inc., 59 
+ Temple Place, Suite 330, Boston, MA 02111-1307 USA 
+--------------------------------------------------------------------------
+
+Ostrich Setup
+Model                  : ./kge_calibrate.py > OstExeOut.txt 2>&1
+Algorithm              : Parallel Dynamically Dimensioned Search Algorithm (PDDS)
+Objective Function     : GCOP
+Number of Parameters   : 367
+Number of Tied Params  : 0
+Number of Observations : 0
+Seed for Random Nums.  : 1708714543
+Number of Resp. Vars        : 1
+Number of Tied Resp. Vars   : 0
+Number of Constraints       : 0
+Penalty Method              : Additive Penalty Method (APM)
+
+Ostrich Run Record
+trial    best fitness   ___ttmpA      ___ttmpB      ___ttmpC      ___ttmpD      ___ttmpE      ___ttmpF      ___ttmpG      ___ttmpH      ___ttmpI      ___ttmpJ      ___ttmpK      ___ttmpL      ___ttmpM      ___ttmpN      ___ttmpO      ___ttmpP      ___ttmpQ      ___ttmpR      ___ttmpS      ___ttmpT      ___ttmpU      ___ttmpV      ___ttmpW      ___cmltA      ___cmltB      ___cmltC      ___cmltD      ___cmltE      ___cmltF      ___cmltG      ___cmltH      ___cmltI      ___cmltJ      ___cmltK      ___cmltL      ___cmltM      ___cmltN      ___cmltO      ___cmltP      ___cmltQ      ___cmltR      ___cmltS      ___cmltT      ___cmltU      ___cmltV      ___cmltW      ___lpA        ___epotdistA  ___albA       ___albB       ___albC       ___albD       ___albE       ___albF       ___albG       ___albH       ___albI       ___albJ       ___albK       ___albL       ___albM       ___albN       ___albO       ___albP       ___albQ       ___albR       ___albS       ___albT       ___albU       ___albV       ___albW       ___bfroznsoilA  ___bfroznsoilB  ___bfroznsoilC  ___bfroznsoilD  ___bfroznsoilE  ___bfroznsoilF  ___bfroznsoilG  ___bfroznsoilH  ___bfroznsoilI  ___bfroznsoilJ  ___bfroznsoilK  ___bfroznsoilL  ___bfroznsoilM  ___bfroznsoilN  ___bfroznsoilO  ___bfroznsoilP  ___bfroznsoilQ  ___bcosbyA    ___bcosbyB    ___bcosbyC    ___bcosbyD    ___bcosbyE    ___bcosbyF    ___bcosbyG    ___bcosbyH    ___bcosbyI    ___bcosbyJ    ___bcosbyK    ___bcosbyL    ___bcosbyM    ___bcosbyN    ___bcosbyO    ___bcosbyP    ___bcosbyQ    ___srrcsA     ___srrcsB     ___srrcsC     ___srrcsD     ___srrcsE     ___srrcsF     ___srrcsG     ___srrcsH     ___srrcsI     ___srrcsJ     ___srrcsK     ___srrcsM     ___srrcsN     ___srrcsO     ___srrcsP     ___srrcsQ     ___srrcsR     ___srrcsS     ___srrcsT     ___srrcsU     ___srrcsW     ___rrcs1A     ___rrcs1B     ___rrcs1C     ___rrcs1D     ___rrcs1E     ___rrcs1F     ___rrcs1G     ___rrcs1H     ___rrcs1I     ___rrcs1J     ___rrcs1K     ___rrcs1L     ___rrcs1M     ___rrcs1N     ___rrcs1O     ___rrcs1P     ___rrcs1Q     ___rrcs2A     ___rrcs2B     ___rrcs2C     ___rrcs2D     ___rrcs2E     ___rrcs2F     ___rrcs2G     ___rrcs2H     ___rrcs2I     ___rrcs2J     ___rrcs2K     ___rrcs2L     ___rrcs2M     ___rrcs2N     ___rrcs2O     ___rrcs2P     ___rrcs2Q     ___srrateA    ___srrateB    ___srrateC    ___srrateD    ___srrateE    ___srrateF    ___srrateG    ___srrateH    ___srrateI    ___srrateJ    ___srrateK    ___srrateL    ___srrateM    ___srrateN    ___srrateO    ___srrateP    ___srrateQ    ___wcwp1A     ___wcwp1B     ___wcwp1C     ___wcwp1D     ___wcwp1E     ___wcwp1F     ___wcwp1G     ___wcwp1H     ___wcwp1I     ___wcwp1J     ___wcwp1K     ___wcwp1L     ___wcwp1M     ___wcwp1N     ___wcwp1O     ___wcwp1P     ___wcwp1Q     ___wcwp2A     ___wcwp2B     ___wcwp2C     ___wcwp2D     ___wcwp2E     ___wcwp2F     ___wcwp2G     ___wcwp2H     ___wcwp2I     ___wcwp2J     ___wcwp2K     ___wcwp2L     ___wcwp2M     ___wcwp2N     ___wcwp2O     ___wcwp2P     ___wcwp2Q     ___wcwp3A     ___wcwp3B     ___wcwp3C     ___wcwp3D     ___wcwp3E     ___wcwp3F     ___wcwp3G     ___wcwp3H     ___wcwp3I     ___wcwp3J     ___wcwp3K     ___wcwp3L     ___wcwp3M     ___wcwp3N     ___wcwp3O     ___wcwp3P     ___wcwp3Q     ___wcfc1A     ___wcfc1B     ___wcfc1C     ___wcfc1D     ___wcfc1E     ___wcfc1F     ___wcfc1G     ___wcfc1H     ___wcfc1I     ___wcfc1J     ___wcfc1K     ___wcfc1L     ___wcfc1M     ___wcfc1N     ___wcfc1O     ___wcfc1P     ___wcfc1Q     ___wcfc2A     ___wcfc2B     ___wcfc2C     ___wcfc2D     ___wcfc2E     ___wcfc2F     ___wcfc2G     ___wcfc2H     ___wcfc2I     ___wcfc2J     ___wcfc2K     ___wcfc2L     ___wcfc2M     ___wcfc2N     ___wcfc2O     ___wcfc2P     ___wcfc2Q     ___wcfc3A     ___wcfc3B     ___wcfc3C     ___wcfc3D     ___wcfc3E     ___wcfc3F     ___wcfc3G     ___wcfc3H     ___wcfc3I     ___wcfc3J     ___wcfc3K     ___wcfc3L     ___wcfc3M     ___wcfc3N     ___wcfc3O     ___wcfc3P     ___wcfc3Q     ___wcep1A     ___wcep1B     ___wcep1C     ___wcep1D     ___wcep1E     ___wcep1F     ___wcep1G     ___wcep1H     ___wcep1I     ___wcep1J     ___wcep1K     ___wcep1L     ___wcep1M     ___wcep1N     ___wcep1O     ___wcep1P     ___wcep1Q     ___wcep2A     ___wcep2B     ___wcep2C     ___wcep2D     ___wcep2E     ___wcep2F     ___wcep2G     ___wcep2H     ___wcep2I     ___wcep2J     ___wcep2K     ___wcep2L     ___wcep2M     ___wcep2N     ___wcep2O     ___wcep2P     ___wcep2Q     ___wcep3A     ___wcep3B     ___wcep3C     ___wcep3D     ___wcep3E     ___wcep3F     ___wcep3G     ___wcep3H     ___wcep3I     ___wcep3J     ___wcep3K     ___wcep3L     ___wcep3M     ___wcep3N     ___wcep3O     ___wcep3P     ___wcep3Q     ___mperc1A    ___mperc1B    ___mperc1C    ___mperc1D    ___mperc1E    ___mperc1F    ___mperc1G    ___mperc1H    ___mperc1I    ___mperc1J    ___mperc1K    ___mperc1L    ___mperc1M    ___mperc1N    ___mperc1O    ___mperc1P    ___mperc1Q    ___mperc2A    ___mperc2B    ___mperc2C    ___mperc2D    ___mperc2E    ___mperc2F    ___mperc2G    ___mperc2H    ___mperc2I    ___mperc2J    ___mperc2K    ___mperc2L    ___mperc2M    ___mperc2N    ___mperc2O    ___mperc2P    ___mperc2Q    ___rrcs3A     ___dampA      ___rivvelA     trials remaining

@@ -1,0 +1,259 @@
+#Basic Configuration for Ostrich Program
+
+#Essential variables
+ProgramType ModelEvaluation
+ModelExecutable ./run-adj.sh
+ModelSubdir mod_
+ObjectiveFunction GCOP
+OstrichWarmStart no
+
+#Template File Configuration
+BeginFilePairs
+data/paired_myparam.param ; data/myparam.param
+data/paired_monthly.txt ; data/monthly.txt
+EndFilePairs
+
+BeginExtraFiles
+EndExtraFiles
+
+BeginExtraDirs
+data
+EndExtraDirs
+
+
+BeginParams
+___mann_n25_A 0.15 0.001 0.15 none none none
+___mann_n29_A 0.15 0.001 0.15 none none none
+___mann_n28_A 0.123671 0.001 0.15 none none none
+___mann_n24_A 0.121629 0.001 0.15 none none none
+___carea_max9_A 0.2 0.16000000000000003 2.0 none none none
+___carea_max20_A 0.2 0.16000000000000003 2.0 none none none
+___carea_max3_A 0.2 0.16000000000000003 2.0 none none none
+___carea_max4_A 0.2 0.16000000000000003 2.0 none none none
+___carea_max5_A 0.2 0.16000000000000003 2.0 none none none
+___carea_max6_A 0.2 0.16000000000000003 2.0 none none none
+___carea_max7_A 0.322445 0.257956 2.0 none none none
+___carea_max15_A 0.2 0.16000000000000003 2.0 none none none
+___emis_noppt9_A 0.935215 0.757 1.0 none none none
+___emis_noppt20_A 0.935215 0.757 1.0 none none none
+___emis_noppt3_A 0.935215 0.757 1.0 none none none
+___emis_noppt4_A 0.935215 0.757 1.0 none none none
+___emis_noppt5_A 0.935215 0.757 1.0 none none none
+___emis_noppt6_A 0.935215 0.757 1.0 none none none
+___emis_noppt7_A 0.935215 0.757 1.0 none none none
+___emis_noppt15_A 0.935215 0.757 1.0 none none none
+___fastcoef_lin9_A 0.181149 0.1449192 0.2173788 none none none
+___fastcoef_lin20_A 0.162566 0.1300528 0.19507919999999998 none none none
+___fastcoef_lin3_A 0.053856 0.043084800000000006 0.0646272 none none none
+___fastcoef_lin4_A 0.156183 0.1249464 0.1874196 none none none
+___fastcoef_lin5_A 0.131083 0.10486640000000001 0.1572996 none none none
+___fastcoef_lin6_A 0.17662 0.141296 0.211944 none none none
+___fastcoef_lin7_A 0.19813 0.158504 0.237756 none none none
+___fastcoef_lin15_A 0.204118 0.1632944 0.24494159999999998 none none none
+___freeh2o_cap9_A 0.01 0.01 0.1 none none none
+___freeh2o_cap20_A 0.01 0.01 0.1 none none none
+___freeh2o_cap3_A 0.027935 0.01 0.1 none none none
+___freeh2o_cap4_A 0.01 0.01 0.1 none none none
+___freeh2o_cap5_A 0.034639 0.01 0.1 none none none
+___freeh2o_cap6_A 0.037263 0.01 0.1 none none none
+___freeh2o_cap7_A 0.014265 0.01 0.1 none none none
+___freeh2o_cap15_A 0.01 0.01 0.1 none none none
+___gwflow_coef9_A 0.021694 0.0173552 0.026032800000000002 none none none
+___gwflow_coef20_A 0.018595 0.014876 0.022314 none none none
+___gwflow_coef3_A 0.030286 0.0242288 0.0363432 none none none
+___gwflow_coef4_A 0.020957 0.016765600000000002 0.025148399999999998 none none none
+___gwflow_coef5_A 0.027056 0.021644800000000002 0.0324672 none none none
+___gwflow_coef6_A 0.025381 0.0203048 0.0304572 none none none
+___gwflow_coef7_A 0.034469 0.0275752 0.0413628 none none none
+___gwflow_coef15_A 0.023739 0.0189912 0.0284868 none none none
+___potet_sublim9_A 0.59016 0.06 0.4 none none none
+___potet_sublim20_A 0.59016 0.06 0.4 none none none
+___potet_sublim3_A 0.59016 0.06 0.4 none none none
+___potet_sublim4_A 0.59016 0.06 0.4 none none none
+___potet_sublim5_A 0.59016 0.06 0.4 none none none
+___potet_sublim6_A 0.59016 0.06 0.4 none none none
+___potet_sublim7_A 0.59016 0.06 0.4 none none none
+___potet_sublim15_A 0.59016 0.06 0.4 none none none
+___rad_trncf9_A 0.448598 0.35887840000000004 0.5383176 none none none
+___rad_trncf20_A 0.458603 0.3668824 0.5503235999999999 none none none
+___rad_trncf3_A 0.361837 0.28946960000000005 0.4342044 none none none
+___rad_trncf4_A 0.680831 0.5446648 0.8169972 none none none
+___rad_trncf5_A 0.524879 0.41990320000000003 0.6298547999999999 none none none
+___rad_trncf6_A 0.381249 0.3049992 0.4574988 none none none
+___rad_trncf7_A 0.522814 0.41825120000000005 0.6273768 none none none
+___rad_trncf15_A 0.824324 0.6594592 0.9891887999999999 none none none
+___slowcoef_sq9_A 0.231772 0.0 1.0 none none none
+___slowcoef_sq20_A 0.070823 0.0 1.0 none none none
+___slowcoef_sq3_A 0.105606 0.0 1.0 none none none
+___slowcoef_sq4_A 0.010356 0.0 1.0 none none none
+___slowcoef_sq5_A 0.010356 0.0 1.0 none none none
+___slowcoef_sq6_A 0.010356 0.0 1.0 none none none
+___slowcoef_sq7_A 0.08552 0.0 1.0 none none none
+___slowcoef_sq15_A 0.010356 0.0 1.0 none none none
+___smidx_coef9_A 0.009403 0.0001 0.8 none none none
+___smidx_coef20_A 0.009403 0.0001 0.8 none none none
+___smidx_coef3_A 0.009403 0.0001 0.8 none none none
+___smidx_coef4_A 0.009403 0.0001 0.8 none none none
+___smidx_coef5_A 0.009403 0.0001 0.8 none none none
+___smidx_coef6_A 0.009403 0.0001 0.8 none none none
+___smidx_coef7_A 0.009403 0.0001 0.8 none none none
+___smidx_coef15_A 0.009403 0.0001 0.8 none none none
+___snarea_thresh9_A 37.416103 29.9328824 44.899323599999995 none none none
+___snarea_thresh20_A 29.766172 23.8129376 35.7194064 none none none
+___snarea_thresh3_A 32.983093 26.386474399999997 39.579711599999996 none none none
+___snarea_thresh4_A 35.697559 28.5580472 42.8370708 none none none
+___snarea_thresh5_A 28.285694 22.6285552 33.9428328 none none none
+___snarea_thresh6_A 29.74345 23.79476 35.692139999999995 none none none
+___snarea_thresh7_A 20.123295 16.098636 24.147954 none none none
+___snarea_thresh15_A 19.421389 15.537111200000002 23.3056668 none none none
+___snowinfil_max9_A 12.134665 0.0 20.0 none none none
+___snowinfil_max20_A 12.134665 0.0 20.0 none none none
+___snowinfil_max3_A 12.134665 0.0 20.0 none none none
+___snowinfil_max4_A 12.134665 0.0 20.0 none none none
+___snowinfil_max5_A 12.134665 0.0 20.0 none none none
+___snowinfil_max6_A 12.134665 0.0 20.0 none none none
+___snowinfil_max7_A 12.134665 0.0 20.0 none none none
+___snowinfil_max15_A 12.134665 0.0 20.0 none none none
+___soil2gw_max9_A 0.5 0.4 0.6 none none none
+___soil2gw_max20_A 0.5 0.4 0.6 none none none
+___soil2gw_max3_A 0.5 0.4 0.6 none none none
+___soil2gw_max4_A 0.5 0.4 0.6 none none none
+___soil2gw_max5_A 0.5 0.4 0.6 none none none
+___soil2gw_max6_A 0.473583 0.3788664 0.5682995999999999 none none none
+___soil2gw_max7_A 0.5 0.4 0.6 none none none
+___soil2gw_max15_A 0.5 0.4 0.6 none none none
+___soil_moist_max9_A 1.941121 1.5528968 2.3293452 none none none
+___soil_moist_max20_A 4.161239 3.3289912000000004 4.9934868 none none none
+___soil_moist_max3_A 4.146553 3.3172424 4.975863599999999 none none none
+___soil_moist_max4_A 1.398465 1.118772 1.678158 none none none
+___soil_moist_max5_A 3.811801 3.0494408 4.5741612 none none none
+___soil_moist_max6_A 4.161239 3.3289912000000004 4.9934868 none none none
+___soil_moist_max7_A 4.161239 3.3289912000000004 4.9934868 none none none
+___soil_moist_max15_A 3.390485 2.7123880000000002 4.068582 none none none
+___soil_rechr_max_frac9_A 0.587313 0.4698504 0.7047756 none none none
+___soil_rechr_max_frac20_A 0.587313 0.4698504 0.7047756 none none none
+___soil_rechr_max_frac3_A 0.587313 0.4698504 0.7047756 none none none
+___soil_rechr_max_frac4_A 0.587313 0.4698504 0.7047756 none none none
+___soil_rechr_max_frac5_A 0.587313 0.4698504 0.7047756 none none none
+___soil_rechr_max_frac6_A 0.587313 0.4698504 0.7047756 none none none
+___soil_rechr_max_frac7_A 0.587313 0.4698504 0.7047756 none none none
+___soil_rechr_max_frac15_A 0.587313 0.4698504 0.7047756 none none none
+___ssr2gw_exp9_A 2.632832 0.0 3.0 none none none
+___ssr2gw_exp20_A 2.632832 0.0 3.0 none none none
+___ssr2gw_exp3_A 2.632832 0.0 3.0 none none none
+___ssr2gw_exp4_A 2.632832 0.0 3.0 none none none
+___ssr2gw_exp5_A 2.632832 0.0 3.0 none none none
+___ssr2gw_exp6_A 2.632832 0.0 3.0 none none none
+___ssr2gw_exp7_A 2.632832 0.0 3.0 none none none
+___ssr2gw_exp15_A 2.632832 0.0 3.0 none none none
+___ssr2gw_rate9_A 0.390373 0.01 0.8 none none none
+___ssr2gw_rate20_A 0.394406 0.01 0.8 none none none
+___ssr2gw_rate3_A 0.39844 0.01 0.8 none none none
+___ssr2gw_rate4_A 0.389365 0.01 0.8 none none none
+___ssr2gw_rate5_A 0.393399 0.01 0.8 none none none
+___ssr2gw_rate6_A 0.38634 0.01 0.8 none none none
+___ssr2gw_rate7_A 0.38634 0.01 0.8 none none none
+___ssr2gw_rate15_A 0.38634 0.01 0.8 none none none
+___adjust_adjmix_rain_9_A 1.0 0.0 2.0 none none none
+___adjust_adjmix_rain_20_A 1.0 0.0 2.0 none none none
+___adjust_adjmix_rain_3_A 1.0 0.0 2.0 none none none
+___adjust_adjmix_rain_4_A 1.0 0.0 2.0 none none none
+___adjust_adjmix_rain_5_A 1.0 0.0 2.0 none none none
+___adjust_adjmix_rain_6_A 1.0 0.0 2.0 none none none
+___adjust_adjmix_rain_7_A 1.0 0.0 2.0 none none none
+___adjust_adjmix_rain_15_A 1.0 0.0 2.0 none none none
+___adjust_cecn_coef_9_A 1.0 0.0 5.5 none none none
+___adjust_cecn_coef_20_A 1.0 0.0 5.5 none none none
+___adjust_cecn_coef_3_A 1.0 0.0 5.5 none none none
+___adjust_cecn_coef_4_A 1.0 0.0 5.5 none none none
+___adjust_cecn_coef_5_A 1.0 0.0 5.5 none none none
+___adjust_cecn_coef_6_A 1.0 0.0 5.5 none none none
+___adjust_cecn_coef_7_A 1.0 0.0 5.5 none none none
+___adjust_cecn_coef_15_A 1.0 0.0 5.5 none none none
+___adjust_jh_coef_9_A 1.0 0.0 2.0 none none none
+___adjust_jh_coef_20_A 1.0 0.0 2.0 none none none
+___adjust_jh_coef_3_A 1.0 0.0 2.0 none none none
+___adjust_jh_coef_4_A 1.0 0.0 2.0 none none none
+___adjust_jh_coef_5_A 1.0 0.0 2.0 none none none
+___adjust_jh_coef_6_A 1.0 0.0 2.0 none none none
+___adjust_jh_coef_7_A 1.0 0.0 2.0 none none none
+___adjust_jh_coef_15_A 1.0 0.0 2.0 none none none
+___adjust_radmax_9_A 1.0 0.0 2.0 none none none
+___adjust_radmax_20_A 1.0 0.0 2.0 none none none
+___adjust_radmax_3_A 1.0 0.0 2.0 none none none
+___adjust_radmax_4_A 1.0 0.0 2.0 none none none
+___adjust_radmax_5_A 1.0 0.0 2.0 none none none
+___adjust_radmax_6_A 1.0 0.0 2.0 none none none
+___adjust_radmax_7_A 1.0 0.0 2.0 none none none
+___adjust_radmax_15_A 1.0 0.0 2.0 none none none
+___adjust_rain_cbh_adj_9_A 1.0 0.0 2.0 none none none
+___adjust_rain_cbh_adj_20_A 1.0 0.0 2.0 none none none
+___adjust_rain_cbh_adj_3_A 1.0 0.0 2.0 none none none
+___adjust_rain_cbh_adj_4_A 1.0 0.0 2.0 none none none
+___adjust_rain_cbh_adj_5_A 1.0 0.0 2.0 none none none
+___adjust_rain_cbh_adj_6_A 1.0 0.0 2.0 none none none
+___adjust_rain_cbh_adj_7_A 1.0 0.0 2.0 none none none
+___adjust_rain_cbh_adj_15_A 1.0 0.0 2.0 none none none
+___adjust_snow_cbh_adj_9_A 1.0 0.0 2.0 none none none
+___adjust_snow_cbh_adj_20_A 1.0 0.0 2.0 none none none
+___adjust_snow_cbh_adj_3_A 1.0 0.0 2.0 none none none
+___adjust_snow_cbh_adj_4_A 1.0 0.0 2.0 none none none
+___adjust_snow_cbh_adj_5_A 1.0 0.0 2.0 none none none
+___adjust_snow_cbh_adj_6_A 1.0 0.0 2.0 none none none
+___adjust_snow_cbh_adj_7_A 1.0 0.0 2.0 none none none
+___adjust_snow_cbh_adj_15_A 1.0 0.0 2.0 none none none
+___adjust_tmax_allrain_offset_9_A 1.0 0.0 2.0 none none none
+___adjust_tmax_allrain_offset_20_A 1.0 0.0 2.0 none none none
+___adjust_tmax_allrain_offset_3_A 1.0 0.0 2.0 none none none
+___adjust_tmax_allrain_offset_4_A 1.0 0.0 2.0 none none none
+___adjust_tmax_allrain_offset_5_A 1.0 0.0 2.0 none none none
+___adjust_tmax_allrain_offset_6_A 1.0 0.0 2.0 none none none
+___adjust_tmax_allrain_offset_7_A 1.0 0.0 2.0 none none none
+___adjust_tmax_allrain_offset_15_A 1.0 0.0 2.0 none none none
+___adjust_tmax_allsnow_9_A 1.0 0.0 2.0 none none none
+___adjust_tmax_allsnow_20_A 1.0 0.0 2.0 none none none
+___adjust_tmax_allsnow_3_A 1.0 0.0 2.0 none none none
+___adjust_tmax_allsnow_4_A 1.0 0.0 2.0 none none none
+___adjust_tmax_allsnow_5_A 1.0 0.0 2.0 none none none
+___adjust_tmax_allsnow_6_A 1.0 0.0 2.0 none none none
+___adjust_tmax_allsnow_7_A 1.0 0.0 2.0 none none none
+___adjust_tmax_allsnow_15_A 1.0 0.0 2.0 none none none
+___adjust_tmax_cbh_adj_9_A 1.0 0.0 2.0 none none none
+___adjust_tmax_cbh_adj_20_A 1.0 0.0 2.0 none none none
+___adjust_tmax_cbh_adj_3_A 1.0 0.0 2.0 none none none
+___adjust_tmax_cbh_adj_4_A 1.0 0.0 2.0 none none none
+___adjust_tmax_cbh_adj_5_A 1.0 0.0 2.0 none none none
+___adjust_tmax_cbh_adj_6_A 1.0 0.0 2.0 none none none
+___adjust_tmax_cbh_adj_7_A 1.0 0.0 2.0 none none none
+___adjust_tmax_cbh_adj_15_A 1.0 0.0 2.0 none none none
+___adjust_tmin_cbh_adj_9_A 1.0 0.0 2.0 none none none
+___adjust_tmin_cbh_adj_20_A 1.0 0.0 2.0 none none none
+___adjust_tmin_cbh_adj_3_A 1.0 0.0 2.0 none none none
+___adjust_tmin_cbh_adj_4_A 1.0 0.0 2.0 none none none
+___adjust_tmin_cbh_adj_5_A 1.0 0.0 2.0 none none none
+___adjust_tmin_cbh_adj_6_A 1.0 0.0 2.0 none none none
+___adjust_tmin_cbh_adj_7_A 1.0 0.0 2.0 none none none
+___adjust_tmin_cbh_adj_15_A 1.0 0.0 2.0 none none none
+EndParams
+
+BeginInitParams
+1.499979E-01	1.499378E-01	1.499484E-01	1.088229E-01	1.680140E-01	1.987759E+00	1.989621E+00	1.992471E+00	1.996267E+00	1.681881E+00	1.751849E+00	1.999189E+00	9.684854E-01	9.975940E-01	9.997847E-01	9.714597E-01	9.901842E-01	9.989101E-01	9.835667E-01	9.935309E-01	2.063455E-01	1.512640E-01	4.929280E-02	1.708965E-01	1.169171E-01	1.975244E-01	1.879027E-01	1.845270E-01	9.867910E-02	9.991931E-02	9.499319E-02	9.933078E-02	9.835880E-02	9.652571E-02	9.414269E-02	9.904294E-02	1.738115E-02	2.231204E-02	3.619714E-02	2.508166E-02	3.244908E-02	3.034688E-02	4.103495E-02	2.847062E-02	3.768457E-01	6.138421E-02	8.500329E-02	2.408883E-01	1.826736E-01	3.040496E-01	1.054710E-01	1.666982E-01	5.331367E-01	5.473990E-01	4.339571E-01	8.039459E-01	6.256361E-01	4.562598E-01	6.222374E-01	9.835062E-01	2.386791E-03	6.182562E-01	6.339702E-01	2.546815E-01	8.635041E-02	5.586209E-01	7.343278E-01	5.570870E-02	4.874121E-01	7.959126E-01	7.961744E-01	7.980073E-01	7.996312E-01	7.652703E-01	7.691584E-01	7.924942E-01	3.000548E+01	2.384004E+01	2.645973E+01	2.857152E+01	2.271619E+01	2.407559E+01	1.652727E+01	1.572533E+01	2.530946E-03	2.499732E-03	4.398323E-03	1.716317E-02	6.989119E-03	5.656543E-03	6.783874E-02	1.038047E+01	4.001783E-01	4.809140E-01	4.403255E-01	5.879262E-01	4.448624E-01	4.059211E-01	5.643105E-01	4.019405E-01	1.557213E+00	3.334611E+00	3.319008E+00	1.122224E+00	3.049667E+00	3.330894E+00	3.332157E+00	2.724125E+00	7.009025E-01	7.044543E-01	7.045545E-01	7.039517E-01	7.020837E-01	4.773177E-01	7.012783E-01	7.043263E-01	2.992920E+00	2.473665E-01	2.261413E+00	2.072300E+00	1.654014E+00	2.199207E+00	1.250457E+00	4.730964E-02	2.881087E-02	1.723166E-01	4.699077E-01	7.468910E-01	6.511121E-01	1.559937E-01	2.944881E-01	1.352511E-02	2.696903E-01	7.215670E-01	1.644657E+00	7.993849E-01	4.514274E-01	1.589424E+00	1.172959E+00	8.530084E-01	4.884340E+00	2.751380E+00	2.922064E+00	2.703763E+00	9.885742E-01	3.019160E+00	5.114651E+00	4.412226E+00	1.250414E+00	6.911023E-01	5.021890E-01	1.941281E+00	5.053053E-01	1.178275E+00	1.120192E+00	1.300550E+00	7.723016E-01	6.751837E-01	2.616148E-01	2.794792E-01	1.722188E+00	3.686491E-01	3.587845E-01	6.046456E-01	1.415519E+00	8.122632E-01	1.539053E+00	1.118808E+00	1.866831E+00	1.841643E+00	1.128544E+00	1.029883E+00	7.322272E-03	4.700256E-01	5.672802E-01	1.699056E+00	1.727644E+00	1.893391E+00	4.293946E-01	1.407486E+00	8.535999E-01	4.016978E-01	1.094492E+00	9.758790E-01	5.568188E-01	8.339021E-01	9.534255E-01	1.521786E+00	7.042519E-01	1.758083E-01	7.531289E-01	1.089505E+00	1.785935E+00	1.571819E+00	3.430289E-01	3.521328E-01	1.181078E+00	1.946204E+00	1.636350E+00	6.702681E-01	1.090978E+00	8.264472E-01	8.421542E-01	9.533364E-01	1.083279E+00	4.404864E-01	1.716076E+00	1.306401E+00	1.130927E+00	1.081547E+00	1.607845E+00	1.976647E-02
+EndInitParams
+
+#Output variables to analyze
+BeginResponseVars
+#name   filename            keyword         line    col     token
+KGE ./data/average_kge.txt ; OST_NULL 0 1 ' '
+EndResponseVars
+
+BeginGCOP
+CostFunction KGE
+PenaltyFunction APM
+EndGCOP
+
+#DDS algorithm setup
+#BeginParallelDDSAlg
+#PerturbationValue 0.2
+#MaxIterations 1
+#UseInitialParamValues
+#EndParallelDDSAlg

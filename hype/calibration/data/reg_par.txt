@@ -1,0 +1,21 @@
+2
+damp	3.137277E-01
+damp	2
+rivvel	1.624640E-01
+rivvel	3
+damp	2.571010E-01
+damp	2
+rivvel	1.014712E-01
+rivvel	3
+damp	1.991305E+00
+damp	2
+rivvel	4.802006E-02
+rivvel	3
+damp	1.971927E+00
+damp	2
+rivvel	2.144159E-01
+rivvel	3
+damp	1.699139E+00
+damp	2
+rivvel	4.136369E-02
+rivvel	3
