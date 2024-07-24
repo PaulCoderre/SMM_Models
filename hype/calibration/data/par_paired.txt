@@ -1,7 +1,7 @@
 ttpi	1.7083																						
 sdnsnew	0.13																						
 snowdensdt	0.0016																						
-fsceff	1.0																						
+fsceff	1																						
 cmrefr	0.2																						
 whcsnow	0.08																						
 ttmp	___ttmpA	___ttmpB	___ttmpC	___ttmpD	___ttmpE	___ttmpF	___ttmpG	___ttmpH	___ttmpI	___ttmpJ	___ttmpK	___ttmpL	___ttmpM	___ttmpN	___ttmpO	___ttmpP	___ttmpQ	___ttmpR	___ttmpS	___ttmpT	___ttmpU	___ttmpV	___ttmpW
@@ -12,29 +12,29 @@ snalbkexp	0.1	0.1	0.1	0.1	0.1	0.1	0.1	0.1	0.1	0.1	0.1	0.1	0.1	0.1	0.1	0.1	0.1	0.
 fscdistmax	0.8	0.8	0.8	0.8	0.8	0.8	0.8	0.8	0.8	0.8	0.8	0.8	0.8	0.8	0.8	0.8	0.8	0.8	0.8	0.8	0.8	0.8	0.8
 fscdist0	0.2	0.2	0.2	0.2	0.2	0.2	0.2	0.2	0.2	0.2	0.2	0.2	0.2	0.2	0.2	0.2	0.2	0.2	0.2	0.2	0.2	0.2	0.2
 fscdist1	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001
-fscmax	1.0																						
+fscmax	1																						
 fscmin	0.01																						
 fsclim	0.001																						
 fsck1	0.2																						
-fsckexp	1e-06																						
+fsckexp	1.00E-06																						
 lp	___lpA																						
 epotdist	___epotdistA																						
 krs	0.16																						
-cevpcorr	0.0																						
+cevpcorr	0																						
 kc3	0.614	0.688	1.201224208	1.334493399	0.917	0.607	1.020708799	0.859	1.020708799	1.3	1.26	0.893	1.024959087	1.25	0.682	0.603	0.6	1.09	1.16	1.16	1.16	1.16	1.16
 alb	___albA	___albB	___albC	___albD	___albE	___albF	___albG	___albH	___albI	___albJ	___albK	___albL	___albM	___albN	___albO	___albP	___albQ	___albR	___albS	___albT	___albU	___albV	___albW
 fepotsnow	0.8	0.8	0.8	0.8	0.8	0.8	0.8	0.8	0.8	0.8	0.8	0.8	0.8	0.8	0.8	0.8	0.8	0.8	0.8	0.8	0.8	0.8	0.8
-deepmem	1000.0																						
+deepmem	1000																						
 bfroznsoil	___bfroznsoilA	___bfroznsoilB	___bfroznsoilC	___bfroznsoilD	___bfroznsoilE	___bfroznsoilF	___bfroznsoilG	___bfroznsoilH	___bfroznsoilI	___bfroznsoilJ	___bfroznsoilK	___bfroznsoilL	___bfroznsoilM	___bfroznsoilN	___bfroznsoilO	___bfroznsoilP	___bfroznsoilQ						
 logsatmp	1.15	1.15	1.15	1.15	1.15	1.15	1.15	1.15	1.15	1.15	1.15	1.15	1.15	1.15	1.15	1.15	1.15						
 bcosby	___bcosbyA	___bcosbyB	___bcosbyC	___bcosbyD	___bcosbyE	___bcosbyF	___bcosbyG	___bcosbyH	___bcosbyI	___bcosbyJ	___bcosbyK	___bcosbyL	___bcosbyM	___bcosbyN	___bcosbyO	___bcosbyP	___bcosbyQ						
 surfmem	17.8	17.8	17.8	17.8	17.8	17.8	17.8	17.8	17.8	17.8	17.8	17.8	17.8	5.15	17.8	17.8	17.8	5.15	17.8	17.8	17.8	17.8	17.8
 depthrel	1.1152	1.1152	1.1152	1.1152	1.1152	1.1152	1.1152	1.1152	1.1152	1.1152	1.1152	1.1152	1.1152	2.47	1.1152	1.1152	1.1152	2.47	1.1152	1.1152	1.1152	1.1152	1.1152
-frost	2.0	2.0	2.0	2.0	2.0	2.0	2.0	2.0	2.0	2.0	2.0	2.0	2.0	2.0	2.0	2.0	2.0	2.0	2.0	2.0	2.0	2.0	2.0
+frost	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2
 srrcs	___srrcsA	___srrcsB	___srrcsC	___srrcsD	___srrcsE	___srrcsF	___srrcsG	___srrcsH	___srrcsI	___srrcsJ	___srrcsK	1	___srrcsM	___srrcsN	___srrcsO	___srrcsP	___srrcsQ	___srrcsR	___srrcsS	___srrcsT	___srrcsU	1	___srrcsW
 rrcs1	___rrcs1A	___rrcs1B	___rrcs1C	___rrcs1D	___rrcs1E	___rrcs1F	___rrcs1G	___rrcs1H	___rrcs1I	___rrcs1J	___rrcs1K	___rrcs1L	___rrcs1M	___rrcs1N	___rrcs1O	___rrcs1P	___rrcs1Q						
 rrcs2	___rrcs2A	___rrcs2B	___rrcs2C	___rrcs2D	___rrcs2E	___rrcs2F	___rrcs2G	___rrcs2H	___rrcs2I	___rrcs2J	___rrcs2K	___rrcs2L	___rrcs2M	___rrcs2N	___rrcs2O	___rrcs2P	___rrcs2Q						
-sfrost	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0						
+sfrost	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1						
 srrate	___srrateA	___srrateB	___srrateC	___srrateD	___srrateE	___srrateF	___srrateG	___srrateH	___srrateI	___srrateJ	___srrateK	___srrateL	___srrateM	___srrateN	___srrateO	___srrateP	___srrateQ						
 wcwp1	___wcwp1A	___wcwp1B	___wcwp1C	___wcwp1D	___wcwp1E	___wcwp1F	___wcwp1G	___wcwp1H	___wcwp1I	___wcwp1J	___wcwp1K	___wcwp1L	___wcwp1M	___wcwp1N	___wcwp1O	___wcwp1P	___wcwp1Q						
 wcwp2	___wcwp2A	___wcwp2B	___wcwp2C	___wcwp2D	___wcwp2E	___wcwp2F	___wcwp2G	___wcwp2H	___wcwp2I	___wcwp2J	___wcwp2K	___wcwp2L	___wcwp2M	___wcwp2N	___wcwp2O	___wcwp2P	___wcwp2Q						
@@ -48,5 +48,11 @@ wcep3	___wcep3A	___wcep3B	___wcep3C	___wcep3D	___wcep3E	___wcep3F	___wcep3G	___w
 mperc1	___mperc1A	___mperc1B	___mperc1C	___mperc1D	___mperc1E	___mperc1F	___mperc1G	___mperc1H	___mperc1I	___mperc1J	___mperc1K	___mperc1L	___mperc1M	___mperc1N	___mperc1O	___mperc1P	___mperc1Q						
 mperc2	___mperc2A	___mperc2B	___mperc2C	___mperc2D	___mperc2E	___mperc2F	___mperc2G	___mperc2H	___mperc2I	___mperc2J	___mperc2K	___mperc2L	___mperc2M	___mperc2N	___mperc2O	___mperc2P	___mperc2Q						
 rrcs3	___rrcs3A																						
-rcgrw	0.0																						
-qmean	200.0																						
+rcgrw	0																						
+qmean	200																						
+wetrate	___wetrateA																						
+wetexp	___wetexpA																						
+iwetw0	___iwetw0A																						
+macrate	___macrateA	___macrateB	___macrateC	___macrateD	___macrateE	___macrateF	___macrateG	___macrateH	___macrateI	___macrateJ	___macrateK	___macrateL	___macrateM	___macrateN	___macrateO	___macrateP	___macrateQ						
+mactrinf	___mactrinfA	___mactrinfB	___mactrinfC	___mactrinfD	___mactrinfE	___mactrinfF	___mactrinfG	___mactrinfH	___mactrinfI	___mactrinfJ	___mactrinfK	___mactrinfL	___mactrinfM	___mactrinfN	___mactrinfO	___mactrinfP	___mactrinfQ						
+mactrsm	___mactrsmA	___mactrsmB	___mactrsmC	___mactrsmD	___mactrsmE	___mactrsmF	___mactrsmG	___mactrsmH	___mactrsmI	___mactrsmJ	___mactrsmK	___mactrsmL	___mactrsmM	___mactrsmN	___mactrsmO	___mactrsmP	___mactrsmQ						

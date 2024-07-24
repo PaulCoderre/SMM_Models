@@ -1,0 +1,7 @@
+# ignore these files
+
+hype/model/*
+
+prms/model/*
+
+prms\validation\et\nhru_summary.csvhru_actet.csv

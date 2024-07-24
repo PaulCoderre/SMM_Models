@@ -24,4 +24,6 @@ lp	0.771	0.5	1	none	none	none
 epotdist	5.6679	2	6	none	none	none
 rivvel	0.3187148	0.1	10	none	none	none
 damp	0.9003751	0.1	0.95	none	none	none
-
+wetrate	3.17	0.1	15	none	none	none
+wetexp	4.94	0.25	5	none	none	none
+iwetw0	4.36	0.5	15	none	none	none
