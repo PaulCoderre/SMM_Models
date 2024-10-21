@@ -4,4 +4,6 @@ hype/model/*
 
 prms/model/*
 
+hype/validation/bootstrapping/gumboot_results/
+
 prms\validation\et\nhru_summary.csvhru_actet.csv
