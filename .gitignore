@@ -6,4 +6,8 @@ prms/model/*
 
 hype/validation/bootstrapping/gumboot_results/
 
+hype/validation/depressions/hds_outputs/
+hype/validation/depressions/ncamapper_outputs/
+hype/validation/depressions/outputs/
+
 prms\validation\et\nhru_summary.csvhru_actet.csv
